@@ -1,0 +1,342 @@
+[
+  {
+    "line_number": 1,
+    "parse_ok": true,
+    "remote_addr": "203.0.113.10",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:12:03 +0800",
+    "time_iso_utc": "2025-09-12T01:12:03+00:00",
+    "request": "GET / HTTP/1.1",
+    "method": "GET",
+    "path": "/",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "body_bytes_sent": 1450,
+    "http_referer": "https://example.com/start",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.200 Safari/537.36",
+    "ua": {
+      "browser": {
+        "family": "Chrome",
+        "version": "119.0.6045"
+      },
+      "os": {
+        "family": "Windows",
+        "version": "10"
+      },
+      "device": {
+        "family": "Other",
+        "type": "PC",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": true,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 2,
+    "parse_ok": true,
+    "remote_addr": "198.51.100.23",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:12:09 +0800",
+    "time_iso_utc": "2025-09-12T01:12:09+00:00",
+    "request": "GET /login HTTP/1.1",
+    "method": "GET",
+    "path": "/login",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "body_bytes_sent": 512,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "ua": {
+      "browser": {
+        "family": "Mobile Safari",
+        "version": "17.0"
+      },
+      "os": {
+        "family": "iOS",
+        "version": "17.2"
+      },
+      "device": {
+        "family": "iPhone",
+        "type": "Mobile",
+        "is_mobile": true,
+        "is_tablet": false,
+        "is_pc": false,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 3,
+    "parse_ok": true,
+    "remote_addr": "192.0.2.44",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:12:15 +0800",
+    "time_iso_utc": "2025-09-12T01:12:15+00:00",
+    "request": "POST /api/v1/session HTTP/1.1",
+    "method": "POST",
+    "path": "/api/v1/session",
+    "protocol": "HTTP/1.1",
+    "status": 201,
+    "body_bytes_sent": 268,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Mobile Safari/537.36",
+    "ua": {
+      "browser": {
+        "family": "Chrome Mobile",
+        "version": "118.0.5993"
+      },
+      "os": {
+        "family": "Android",
+        "version": "14"
+      },
+      "device": {
+        "family": "Pixel 7 Pro",
+        "type": "Mobile",
+        "is_mobile": true,
+        "is_tablet": false,
+        "is_pc": false,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 4,
+    "parse_ok": true,
+    "remote_addr": "203.0.113.55",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:12:27 +0800",
+    "time_iso_utc": "2025-09-12T01:12:27+00:00",
+    "request": "GET /dashboard HTTP/2.0",
+    "method": "GET",
+    "path": "/dashboard",
+    "protocol": "HTTP/2.0",
+    "status": 200,
+    "body_bytes_sent": 4096,
+    "http_referer": "https://example.com/login",
+    "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+    "ua": {
+      "browser": {
+        "family": "Safari",
+        "version": "17.2"
+      },
+      "os": {
+        "family": "Mac OS X",
+        "version": "13.6"
+      },
+      "device": {
+        "family": "Mac",
+        "type": "PC",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": true,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 5,
+    "parse_ok": true,
+    "remote_addr": "198.51.100.88",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:12:40 +0800",
+    "time_iso_utc": "2025-09-12T01:12:40+00:00",
+    "request": "GET /static/logo.png HTTP/1.1",
+    "method": "GET",
+    "path": "/static/logo.png",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "body_bytes_sent": 0,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0",
+    "ua": {
+      "browser": {
+        "family": "Firefox",
+        "version": "119.0"
+      },
+      "os": {
+        "family": "Windows",
+        "version": "10"
+      },
+      "device": {
+        "family": "Other",
+        "type": "PC",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": true,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 6,
+    "parse_ok": true,
+    "remote_addr": "203.0.113.77",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:13:01 +0800",
+    "time_iso_utc": "2025-09-12T01:13:01+00:00",
+    "request": "GET /reports Q1 HTTP/1.1",
+    "method": "GET",
+    "path": "/reports",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "body_bytes_sent": 1234,
+    "http_referer": "https://example.com/dashboard",
+    "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Windows 11) AppleWebKit/537.36 (KHTML, like Gecko) Edg/119.0.1108.62 Chrome/119.0.6045.200 Safari/537.36",
+    "ua": {
+      "browser": {
+        "family": "Edge",
+        "version": "119.0.1108"
+      },
+      "os": {
+        "family": "Windows",
+        "version": "10"
+      },
+      "device": {
+        "family": "Other",
+        "type": "PC",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": true,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 7,
+    "parse_ok": true,
+    "remote_addr": "192.0.2.77",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:13:15 +0800",
+    "time_iso_utc": "2025-09-12T01:13:15+00:00",
+    "request": "GET /help HTTP/1.1",
+    "method": "GET",
+    "path": "/help",
+    "protocol": "HTTP/1.1",
+    "status": 500,
+    "body_bytes_sent": 78,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-T870 Build/TP1A.220624.014; wv; Tablet) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.60 Safari/537.36",
+    "ua": {
+      "browser": {
+        "family": "Chrome",
+        "version": "117.0.5938"
+      },
+      "os": {
+        "family": "Android",
+        "version": "13"
+      },
+      "device": {
+        "family": "Samsung SM-T870",
+        "type": "Tablet",
+        "is_mobile": false,
+        "is_tablet": true,
+        "is_pc": false,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 8,
+    "parse_ok": true,
+    "remote_addr": "203.0.113.90",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:13:33 +0800",
+    "time_iso_utc": "2025-09-12T01:13:33+00:00",
+    "request": "GET /docs HTTP/1.1",
+    "method": "GET",
+    "path": "/docs",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "body_bytes_sent": 2112,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+    "ua": {
+      "browser": {
+        "family": "Mobile Safari",
+        "version": "16.6"
+      },
+      "os": {
+        "family": "iOS",
+        "version": "16.6"
+      },
+      "device": {
+        "family": "iPad",
+        "type": "Tablet",
+        "is_mobile": false,
+        "is_tablet": true,
+        "is_pc": false,
+        "is_bot": false
+      }
+    }
+  },
+  {
+    "line_number": 9,
+    "parse_ok": true,
+    "remote_addr": "66.249.66.1",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:13:48 +0800",
+    "time_iso_utc": "2025-09-12T01:13:48+00:00",
+    "request": "GET /robots.txt HTTP/1.1",
+    "method": "GET",
+    "path": "/robots.txt",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "body_bytes_sent": 68,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "ua": {
+      "browser": {
+        "family": "Googlebot",
+        "version": "2.1"
+      },
+      "os": {
+        "family": "Other",
+        "version": null
+      },
+      "device": {
+        "family": "Spider",
+        "type": "Bot",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": false,
+        "is_bot": true
+      }
+    }
+  },
+  {
+    "line_number": 10,
+    "parse_ok": true,
+    "remote_addr": "203.0.113.120",
+    "remote_user": null,
+    "time_local": "12/Sep/2025:09:14:05 +0800",
+    "time_iso_utc": "2025-09-12T01:14:05+00:00",
+    "request": "PUT /api/v1/profile HTTP/1.1",
+    "method": "PUT",
+    "path": "/api/v1/profile",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "body_bytes_sent": 512,
+    "http_referer": null,
+    "http_user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.10 Safari/537.36",
+    "ua": {
+      "browser": {
+        "family": "Chrome",
+        "version": "120.0.6099"
+      },
+      "os": {
+        "family": "Linux",
+        "version": null
+      },
+      "device": {
+        "family": "Other",
+        "type": "PC",
+        "is_mobile": false,
+        "is_tablet": false,
+        "is_pc": true,
+        "is_bot": false
+      }
+    }
+  }
+]
